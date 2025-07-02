@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Michroma", sans-serif;
+    background-image: url(/imagenes/imagen-index.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-superior{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    z-index: 1000;
+}
+
+.menu ul {
+    margin-top: 0;
+    display: flex;
+    gap: 25px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.menu a:hover {
+    color: #ffb347;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menu a img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 300px;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    width: 19%;
+    cursor: pointer;
+    background: rgb(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 3em;
+}
+button:hover {
+    transition: .5s ease-in-out;
+    background-color: rgb(254, 174, 46, 0.5);
+}
+
+footer{
+    background: black;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto;
+}
